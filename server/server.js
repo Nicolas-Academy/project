@@ -2,7 +2,7 @@
 require('dotenv').config(); 
 const express = require("express");
 const cors = require("cors");
-const connectToDb = require('./config/connectToDb');
+const connectToDb = require("./connectTODb"); 
 
 
 // Importar módulos de rutas.
